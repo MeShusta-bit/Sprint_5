@@ -1,28 +1,22 @@
 from selenium.webdriver.common.by import By
-from time import sleep
+from locators import *
+from data import *
 
+class TestCustomerAccount(Locator,Data):
+    def test_click_desinger_customer_account(self,driver):
+        driver.find_element(By.XPATH, self.login_account).click()
+        driver.find_element(By.NAME, self.imput_name_login).send_keys(self.name)
+        driver.find_element(By.NAME, self.imput_password_login).send_keys(self.password)
+        driver.find_element(By.XPATH,self.button_login).click()
+        driver.find_element(By.XPATH, self.personal_account).click()
+        driver.find_element(By.XPATH, self.constructor).click()
+        assert driver.current_url == 'https://stellarburgers.nomoreparties.site/'
 
-def test_click_desinger_customer_account(driver):
-    driver.find_element(By.XPATH, "//button[text() = 'Войти в аккаунт']").click()
-    driver.find_element(By.NAME, "name").send_keys(
-        "Mikhail_Trishin_10qogorta_123@gmail.ru")
-    driver.find_element(By.NAME, "Пароль").send_keys("123123")
-    driver.find_element(By.XPATH,'//button[text() ="Войти"]').click()
-    driver.find_element(By.XPATH, '//p[text() = "Личный Кабинет"]').click()
-    driver.find_element(By.XPATH, '//p[text()="Конструктор"]').click()
-    sleep(1)
-    assert driver.current_url == 'https://stellarburgers.nomoreparties.site/'
-    driver.quit()
-
-def test_click_logo_customer_account(driver):
-    driver.find_element(By.XPATH, "//button[text() = 'Войти в аккаунт']").click()
-    driver.find_element(By.NAME, "name").send_keys(
-        "Mikhail_Trishin_10qogorta_123@gmail.ru")
-    driver.find_element(By.NAME, "Пароль").send_keys("123123")
-    driver.find_element(By.XPATH, '//button[text() ="Войти"]').click()
-    driver.find_element(By.XPATH, '//p[text() = "Личный Кабинет"]').click()
-    driver.find_element(By.XPATH,'//div[contains(@class, "AppHeader")]').click()
-    sleep(1)
-    assert driver.current_url == 'https://stellarburgers.nomoreparties.site/'
-    driver.quit()
-
+    def test_click_logo_customer_account(self,driver):
+        driver.find_element(By.XPATH, self.login_account).click()
+        driver.find_element(By.NAME, self.imput_name_login).send_keys(self.name)
+        driver.find_element(By.NAME, self.imput_password_login).send_keys(self.password)
+        driver.find_element(By.XPATH, self.button_login).click()
+        driver.find_element(By.XPATH, self.personal_account).click()
+        driver.find_element(By.XPATH, self.button_stellar).click()
+        assert driver.current_url == 'https://stellarburgers.nomoreparties.site/'
