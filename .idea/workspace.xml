@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="62e6e262-145f-4933-8334-e76adcbbbdf2" name="Changes" comment="" />
+    <list default="true" id="62e6e262-145f-4933-8334-e76adcbbbdf2" name="Changes" comment="two_commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/locators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_constructor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_constructor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_login_in_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_login_in_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_logout_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_logout_account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_personal_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_personal_account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_transfer_esinger_from_personal_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_transfer_esinger_from_personal_account.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MeShusta-bit&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MeShusta-bit/Sprint_5.git&quot;,
+    &quot;accountId&quot;: &quot;5e3c6a19-df01-4db8-ac8e-ba9345ea485b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2lYn2pLpWea3bKc7JXaOEjURcmR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,10 +61,35 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests in test_authorization.py.executor": "Run",
+    "Python tests.Python tests in test_constructor.py.executor": "Run",
+    "Python tests.Python tests in test_login_in_button.py.executor": "Run",
+    "Python tests.Python tests in test_logout_account.py.executor": "Run",
+    "Python tests.Python tests in test_personal_account.py.executor": "Run",
+    "Python tests.Python tests in test_registration.py.executor": "Run",
+    "Python tests.Python tests in test_transfer_esinger_from_personal_account.py.executor": "Run",
+    "Python.conftest.executor": "Run",
+    "Python.helpers.executor": "Run",
+    "Python.locators.executor": "Run",
+    "Python.test_authorization.executor": "Run",
+    "Python.test_logout_account.executor": "Run",
+    "Python.test_personal_account.executor": "Run",
+    "Python.test_transfer_esinger_from_personal_account.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "#1 on develop",
+    "last_opened_file_path": "C:/Users/Home/PycharmProjects/Sprint_5"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Home\PycharmProjects\Sprint_5" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Home\PycharmProjects\Sprint_5\Tests" />
+      <recent name="C:\Users\Home\PycharmProjects\Sprint_5" />
+      <recent name="C:\Users\Home\PycharmProjects\Sprint_5\venv" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -41,6 +106,28 @@
       <option name="presentableId" value="Default" />
       <updated>1725365672694</updated>
     </task>
+    <task id="LOCAL-00001" summary="one_commit">
+      <option name="closed" value="true" />
+      <created>1725365781102</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725365781102</updated>
+    </task>
+    <task id="LOCAL-00002" summary="two_commit">
+      <option name="closed" value="true" />
+      <created>1725769973863</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725769973863</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="one_commit" />
+    <MESSAGE value="two_commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="two_commit" />
   </component>
 </project>
