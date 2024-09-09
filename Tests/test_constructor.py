@@ -1,22 +1,18 @@
 from selenium.webdriver.common.by import By
-from locators import *
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions
+from locators import Locator
 
 
-class TestClickTransition(Locator):
+
+class TestClickTransition:
     def test_click_transition_Sousi(self,driver):
-        driver.find_element(By.XPATH, self.sousi).click()
-        WebDriverWait(driver, 10).until(expected_conditions.element_to_be_clickable((By.XPATH, self.sousi_spicy)))
-        assert driver.find_element(By.XPATH,'//div[contains(@class, "current")]')
+        driver.find_element(By.XPATH, Locator.sousi).click()
+        assert driver.find_element(By.XPATH, (Locator.sousi and Locator.section_selected))
 
     def test_click_transition_Nachinki(self,driver):
-        driver.find_element(By.XPATH, self.nachinki).click()
-        WebDriverWait(driver, 10).until(expected_conditions.element_to_be_clickable((By.XPATH, self.meteorite)))
-        assert driver.find_element(By.XPATH,'//div[contains(@class, "current")]')
+        driver.find_element(By.XPATH, Locator.nachinki).click()
+        assert driver.find_element(By.XPATH,(Locator.nachinki and Locator.section_selected))
 
     def test_click_transition_bulki(self,driver):
-        driver.find_element(By.XPATH, self.sousi).click()
-        driver.find_element(By.XPATH, self.bulki).click()
-        WebDriverWait(driver, 10).until(expected_conditions.element_to_be_clickable((By.XPATH, self.bulka)))
-        assert driver.find_element(By.XPATH,'//div[contains(@class, "current")]')
+        driver.find_element(By.XPATH, Locator.sousi).click()
+        driver.find_element(By.XPATH, Locator.bulki).click()
+        assert driver.find_element(By.XPATH,(Locator.bulki and Locator.section_selected))
